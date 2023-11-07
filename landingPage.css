@@ -8,16 +8,46 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-}
-
-.container div{
-    flex: 1 1 auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 .hero{
     background-color: #1f2937;
-    padding: 200px 0;
+    padding: 150px 0;
+    display: flex;
 }
 
+.text-element{
+    flex-direction: row;
+    display: grid;
+}
 
+button{
+    margin: 20px, 20px, 20px, 20px;
+}
+
+.img-element{
+    flex-direction: row;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.content{
+    background-color: #ffffff;
+    padding: 150px 0;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 150px 0;
+}
+
+.footer{
+    background-color: #ffffff;
+    padding: 150px 0;
+}
 
